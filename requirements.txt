@@ -1,0 +1,35 @@
+# ============================================================
+# Deep learning (installa PyTorch separatamente dal sito ufficiale
+# per matchare la tua versione CUDA: https://pytorch.org)
+# ============================================================
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# ============================================================
+# Computer vision
+# ============================================================
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# ============================================================
+# Scientific computing
+# ============================================================
+numpy>=1.24.0
+scipy>=1.11.0
+
+# ============================================================
+# GUI
+# ============================================================
+PyQt5>=5.15.0
+
+# ============================================================
+# Note:
+# - segment-anything si installa da repo:
+#       pip install -e ./segment-anything-main
+#   oppure:
+#       pip install git+https://github.com/facebookresearch/segment-anything.git
+#
+# - Il modulo BiSeNet del repo face-parsing-main viene importato
+#   via sys.path.append in face_parsing.py: basta clonare il repo
+#   nella root del progetto.
+# ============================================================
